@@ -1,0 +1,22 @@
+{
+   
+   "functions": [
+       {
+           "name": "getClassesAndIds",
+           "description": "Takes in the DOM of an HTML page in JSON form and a prompt and returns a list of classes and ids that are related to the prompt.",
+           "parameters": {
+               "type": "object",
+               "properties": {
+                   "elements": {
+                       "type": "array",
+                       "description": "A array of classes and ids related to the prompt.",
+                       "items": {
+                            "type": "string",
+                            "description": "A class or id related to the prompt."
+                       }
+                   }
+               }
+           }
+       }
+   ]
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>UW Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        header, footer {
+            background-color: #00274c;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .nav-link {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: inline-block;
+        }
+        .dropdown {
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .main-link {
+            color: #0693e3;
+            text-decoration: none;
+        }
+        .main-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>University of Washington</h1>
+        <nav>
+            <div class="dropdown">
+                <a href="#" class="nav-link">Academics</a>
+                <div class="dropdown-content">
+                    <a href="https://www.washington.edu/academics/undergrad/">Undergraduate Programs</a>
+                    <a href="https://www.washington.edu/academics/grad/">Graduate Programs</a>
+                    <a href="https://www.washington.edu/online/">Online Learning</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="nav-link">Campus Life</a>
+                <div class="dropdown-content">
+                    <a href="https://www.washington.edu/housing/">Housing & Dining</a>
+                    <a href="https://www.washington.edu/clubs/">Clubs & Organizations</a>
+                    <a href="https://www.washington.edu/wellness/">Health & Wellness</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="nav-link">News and Events</a>
+                <div class="dropdown-content">
+                    <a href="https://www.washington.edu/news/">Latest News</a>
+                    <a href="https://www.washington.edu/events/">Upcoming Events</a>
+                    <a href="https://www.washington.edu/calendar/">Calendar</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome to the UW Homepage</h2>
+        <p>This is a simplified version of the University of Washington's homepage, focusing on essential content.</p>
+        <p>Explore more about us:</p>
+        <ul>
+            <li><a href="https://www.washington.edu/admissions/" class="main-link">Admissions</a></li>
+            <li><a href="https://www.washington.edu/research/" class="main-link">Research</a></li>
+            <li><a href="https://www.washington.edu/contact/" class="main-link">Contact Us</a></li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; University of Washington</p>
+    </footer>
+</body>
+</html>
